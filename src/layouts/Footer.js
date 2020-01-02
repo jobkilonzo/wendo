@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 
 function Footer(){
     return(
-    <h4 className="footer"> Wendo Technologies &copy; {new Date().getFullYear()}</h4>
+    <h4 className="footer">&copy; {new Date().getFullYear()} Wendo Technologies. All Rights Reserved.</h4>
     )
 }
 

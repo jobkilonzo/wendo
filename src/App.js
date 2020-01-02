@@ -10,8 +10,10 @@ function App() {
   return (
     <div>
       <Upper />
+      <div className="whole-body">
       <Body />
       <Footer />
+      </div>
     </div>
   );
 }

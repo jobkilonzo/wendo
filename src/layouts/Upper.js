@@ -7,11 +7,11 @@ import {
 class Upper extends Component{
     render(){
         return(
-            <Container>
-                <Navbar expand="lg" variant="light" bg="light">
+            <Navbar expand="lg" variant="dark">
+                    <Container>
                     <Navbar.Brand href="#">Wendo Technologies</Navbar.Brand>
+                    </Container>
                 </Navbar>
-            </Container>
         );
     }
 }
